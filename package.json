@@ -1,0 +1,28 @@
+{
+  "name": "node-js-crash",
+  "version": "1.0.0",
+  "description": "Node.js crash course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv -e .env nodemon server.js",
+    "dev": "dotenv -e .env nodemon server2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimsonMoses/nodejs-crash.git"
+  },
+  "author": "Simsonmoses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimsonMoses/nodejs-crash/issues"
+  },
+  "homepage": "https://github.com/SimsonMoses/nodejs-crash#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.6"
+  }
+}
