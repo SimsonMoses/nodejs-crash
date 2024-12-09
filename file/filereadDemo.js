@@ -36,6 +36,16 @@ const writeFile = async () => {
         console.log(err)    
     }
 };
+// append text to the file
+const appendFile = async () => {
+    try{
+        await fsp.appendFile('./file/test.txt', '\nThis is appended text')
+        console.log('file appended');
+    }catch(err){
+        console.log(err)
+    }
+}
 
 writeFile();
+appendFile();
 readFile()
